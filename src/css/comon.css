@@ -4,26 +4,25 @@
     gap: 20px;
 }
 
-
-
 .photo-card {
-  border: 1px solid #ccc; /* тонка сіра рамка */
-  border-radius: 5px;      /* заокруглені кути */
-  padding: 10px;           /* відступ всередині */
-  margin-bottom: 20px;     /* відстань між карточками */
-  list-style: none;        /* прибираємо маркери ul */
-  max-width: 250px;        /* за потреби обмежуємо ширину */
+  border: 2px solid #ccc; 
+  list-style: none;       
+       
 }
 
+/* .img-card {
+  width: 360px;
+  height: 200px;
+} */
+
 .photo-card img {
-  width: 100%;
   display: block;
 }
 
 .photo-info-labels,
 .photo-info-values {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 5px;
   font-size: 14px;
 }
@@ -31,3 +30,5 @@
 .photo-info-labels span {
   font-weight: bold;
 }
+
+
